@@ -16,7 +16,6 @@ function calculateBMI() {
     let weight = parseFloat(weightInput.value);
 
     if (unitSystem === "us") {
-        // Convert height from inches to cm and weight from pounds to kg
         height = height * 2.54;
         weight = weight * 0.453592;
     }
